@@ -1,2 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
+body{font-family: 'Roboto', sans-serif;}
 
+/*********************VARIABLES**********************/
+:root{--primary-white:#fff; --primary-orange:#f9ab00;}
+
+/*********************NAVBAR**********************/
+.logo{width:5.5rem;}
+
+/*********************NAVBAR LINK**********************/
+.navbar-nav .nav-link{
+    font-weight: 2rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.19rem;
+    color: var(--primary-white) !important;
+    margin-left: 0.75rem;
+    margin-right: 0.75ren;
+}
+
+.a.nav-link , a.nav-link:focus {
+border-top: 0.1875rem solid var(--primary-orange)
+}
+.a.nav-link , a.nav-link:hover {
+    border-top: 0.1875rem solid var(--primary-orange)
+}
